@@ -1,1 +1,1 @@
-# sqlite-querty-and-insert
+# sqlite-query-and-insert

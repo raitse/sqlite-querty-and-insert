@@ -5,12 +5,6 @@ from dotenv import load_dotenv
 from datetime import datetime
 
 
-# 5k riviä yhden random ID kohdalle
-# Timestamp pitää olla nykyhetki (Created at kolumni)
-# Joku muu random yksi ID 3k riviä
-# loput 4k riviä muihin id:hen, ei kahteen aiempaan
-
-
 def main():
     counter = 0
     print(f"connecting to {os.getenv('LIBSQL_URL')}")
